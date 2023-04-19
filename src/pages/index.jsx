@@ -253,7 +253,7 @@ export default function Home({ articles }) {
         <title>MimoudiX - Software Engineer</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m MimoudiX, a software engineer and entrepreneur based in Casablanca City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
       <Container className="mt-9">
@@ -262,10 +262,9 @@ export default function Home({ articles }) {
             Software designer, founder, and amateur astronaut.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m MimoudiX, a software engineer based in Casablanca City. I’m the
+            founder and CEO of Planetaria, where we develop technologies that
+            empower regular people to explore space on their own terms.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
