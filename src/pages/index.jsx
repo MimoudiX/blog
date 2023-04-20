@@ -323,9 +323,9 @@ export default function Home({ articles }) {
             great pleasure in developing robust and scalable web applications
             using these technologies. Additionally, I am a big fan of
             TailwindCSS, a utility-first CSS framework that helps me create
-            elegant and efficient designs. Whether it's building new software
-            from scratch or optimizing existing code, I am always up for a
-            challenge and eager to deliver exceptional results.
+            elegant and efficient designs. Whether it&apos;s building new
+            software from scratch or optimizing existing code, I am always up
+            for a challenge and eager to deliver exceptional results.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

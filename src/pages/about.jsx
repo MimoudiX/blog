@@ -79,15 +79,15 @@ export default function About() {
               <p>
                 One of the aspects of web development that I find most exciting
                 is the ability to create beautiful and efficient designs using
-                CSS. That's why I am a big fan of TailwindCSS - a utility-first
-                CSS framework that helps me create elegant and efficient designs
-                with minimal code. This approach allows me to focus on the
-                functionality and logic of the application, without getting
-                bogged down in the details of styling.
+                CSS. That&apos;s why I am a big fan of TailwindCSS - a
+                utility-first CSS framework that helps me create elegant and
+                efficient designs with minimal code. This approach allows me to
+                focus on the functionality and logic of the application, without
+                getting bogged down in the details of styling.
               </p>
               <p>
                 In my work, I am always looking for new challenges and
-                opportunities to push myself to the limits. Whether it's
+                opportunities to push myself to the limits. Whether it&apos;s
                 building a new software product from scratch or optimizing
                 existing code, I am always up for the task. I am dedicated to
                 delivering exceptional results that meet or exceed the
