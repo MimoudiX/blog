@@ -166,7 +166,7 @@ function Resume() {
     },
     {
       company: 'Fox Gaming Esports',
-      title: 'Product Designer',
+      title: 'Content Strategist',
       logo: logoFxg,
       start: '2022',
       end: '2023',
@@ -366,7 +366,6 @@ export default function Home({ articles }) {
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
             <Resume />
-            <Education />
           </div>
         </div>
       </Container>
