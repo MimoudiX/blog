@@ -1,0 +1,148 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'MimoudiX',
+  date: '2023-04-22',
+  title: 'Guide to Centering a Div: A Web Designer s Nightmare',
+  description:
+    'When you’re building a website for a company as ambitious as Planetaria, you need to make an impression. I wanted people to visit our website and see animations that looked more realistic than reality itself.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Centering a `<div>` element on a web page is like trying to wrangle a group of wild monkeys - it's frustrating, unpredictable, and will make you want to pull your hair out. But don't worry, fellow web designers! We're here to guide you through all the ridiculous ways to center a `<div>` element. Some of these methods might work, some of them might be completely useless, but they will all give you a good laugh.
+
+## Method 1: The Good Ol' Margin
+
+Picture this: you're at a party, and you spot your reliable, dependable friend - the one you can always count on. Simply add `margin: 0 auto;` to your CSS code, and voila! Your `<div>` element is now centered. It's like magic, but not as exciting.
+
+```html
+<head>
+  <style>
+    .center-div {
+      margin: auto;
+      width: 60%;
+      border: 3px solid #73ad21;
+      padding: 10px;
+    }
+  </style>
+</head>
+<div class="center-div">
+  <p>Hello World!</p>
+</div>
+```
+
+## Method 2: The Table Method
+
+Remember the days when we used to wrap everything in a `<table>` element? Yeah, neither do we. But for some reason, some people still use the table method to center their `<div>` elements. Simply wrap your `<div>` element in a table, add `text-align: center` to the table element, and pray that it works. It's like using a flip phone in 2023 - it's outdated and embarrassing.
+
+```html
+<head>
+  <style>
+    table {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+    .centered {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<table>
+  <tr>
+    <td class="centered">
+      <div><!-- your div element goes here --></div>
+    </td>
+  </tr>
+</table>
+```
+
+## Method 3: The Flexbox Method
+
+Are you a fan of the latest trends and the coolest hangout spots? Then flexbox is your new best friend. With just a few lines of CSS, you can center your `<div>` element both horizontally and vertically. It's modern, it's sleek, and it will make you feel like a coding ninja. But let's be real, it's not as fun as it sounds.
+
+```html
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .centered {
+      width: 50%;
+      height: 50%;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+  </style>
+</head>
+<div class="flex-container">
+  <div class="centered"><!-- your div element goes here --></div>
+</div>
+```
+
+## Method 4: The Absolute Positioning Method
+
+Feeling like a rebel? Then the absolute positioning method is for you. Set your `<div>` element to `position: absolute` and then use `top: 50%` and `left: 50%` to position it in the center of the page. It's like skydiving without a parachute - it's exciting, it's dangerous, and it will probably end in disaster.
+
+```html
+<head>
+  <style>
+    .absolute-container {
+      position: relative;
+      height: 100vh;
+    }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<div class="absolute-container">
+  <div class="centered"><!-- your div element goes here --></div>
+</div>
+```
+
+## Method 5: The Grid Method
+
+Last but not least, we have the grid method. This involves using CSS grid to create a grid layout and then placing your `<div>` element in the center of the grid. It's like playing Tetris with your CSS code. It's fun, it's challenging, and it will make you want to pull your hair out.
+
+```html
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      place-items: center;
+      height: 100vh;
+    }
+    .centered {
+      width: 50%;
+      height: 50%;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+  </style>
+</head>
+<div class="grid-container">
+  <div class="centered"><!-- your div element goes here --></div>
+</div>
+```
+
+## Method 6: The Sacrifice Method
+
+If all else fails, you can always try the sacrifice method. Find a picture of your least favorite celebrity, print it out, and burn it in a ritualistic ceremony while chanting "center my `<div>` element, oh great coding gods". It's like trying to summon a demon - it probably won't work, but it's worth a shot.
+
+```html
+<!-- We cannot provide a code snippet for this method. Please do not attempt! -->
+```
+
+In conclusion, centering a `<div>` element is no easy feat. But with these ridiculous methods, you'll at least have a good laugh while trying. And who knows, maybe one of these methods will actually work for you. Just don't forget to sacrifice a picture of Justin Bieber, just in case.
